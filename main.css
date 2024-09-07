@@ -1,0 +1,115 @@
+body {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #efefef;
+}
+html {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: rgb(107, 130, 169);
+}
+
+p {
+  height: 80px;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.intro {
+  font-style: italic;
+}
+.myweb {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+}
+
+/* .appItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.inner {
+  height: 300px;
+  background-image: url("./images/candy.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.self {
+  width: 100px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.listBox {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-box {
+  height: 100px;
+  background-image: url("./images/candy.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-box {
+  width: 100%;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.icons .icon {
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(107, 130, 169);
+  font-weight: 700;
+}
+
+.copyright {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
